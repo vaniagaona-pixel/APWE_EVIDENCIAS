@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Vania Gaona Morales">
+    <meta name="description" content="Contacta a Vania, conoce sus proyectos de diseño digital y web.">
+    <meta name="keywords" content="contacto, portafolio, diseño web, diseño digital">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="iconos/favicon (1).ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <title>Contacto | Vania</title>
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg navbar-dark py-0 fixed-top">
+  <nav class="container">
+    <a class="navbar-brand" href="index.html">
+    <img src="imagenes/icon-removebg-preview.png"
+         alt="Logo"
+         class="d-inline-block align-text-middle logotipo">
+    Vania | Portafolio
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="index.html#quien">¿Quién soy?</a>
+            <a class="nav-link" href="index.html#habilidades">Habilidades</a>
+            <a class="nav-link" href="index.html#intereses">Intereses</a>
+            <a class="nav-link active" href="contacto.html">Contacto</a>
+        </div>
+    </div>
+  </nav>
+</header>
+
+            <section class="contacto-encabezado container text-center">
+            <h1 class="display-4 fw-bold text-center  pb-3 d-none d-lg-block">Háblemos</h1>
+            <p class="contacto-intro">
+                ¿Tienes una idea, una pregunta o una propuesta?
+                Me encantará conocerla.
+            </p>
+        </section>
+
+        <section class="container contacto-principal">
+            <div class="text-center contacto-subtitulo">
+                <h2>Escríbeme</h2>
+                <p>¡Te quiero escuchar!</p>
+            </div>
+
+            <div class="row g-5">
+                <article class="col-12 col-lg-7">
+                    <form class="formulario-contacto" action="#" method="post">
+
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">
+                                Nombre completo
+                            </label>
+                            <input type="text" class="form-control"
+                                id="nombre" name="nombre"
+                                placeholder="Tu nombre" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">
+                                Correo electrónico
+                            </label>
+                            <input type="email" class="form-control"
+                                id="correo" name="correo"
+                                placeholder="tu@correo.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label">
+                                Motivo de contacto
+                            </label>
+                            <select class="form-select" id="asunto"
+                                name="asunto" required>
+                                <option value="" selected disabled>
+                                    Selecciona una opción
+                                </option>
+                                <option value="proyecto">Propuesta de proyecto</option>
+                                <option value="diseno">Diseño digital o web</option>
+                                <option value="colaboracion">Colaboración</option>
+                                <option value="otro">Otro motivo</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">
+                                Tu mensaje
+                            </label>
+                            <textarea class="form-control"
+                                id="mensaje" name="mensaje"
+                                rows="5"
+                                placeholder="Escribe tu mensaje..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-contacto">
+                            Enviar mensaje ↗
+                        </button>
+                    </form>
+                </article>
+
+                <aside class="col-12 col-lg-5 datos-contacto">
+                    <h2>Mis datos</h2>
+
+                    <div class="dato-contacto">
+                        <span class="material-symbols-outlined">
+                        location_on
+                        </span>
+                        <p>
+                            <strong>Ubicación:</strong>
+                            León, Guanajuato, México
+                        </p>
+                    </div>
+
+                    <div class="dato-contacto">
+                        <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                        <p>
+                            <strong>Correo electrónico:</strong>
+                            <a href="mailto:TU_CORREO@ejemplo.com">
+                                vaniaairneegaonamorales@gmail.com
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="dato-contacto">
+                        <span class="material-symbols-outlined">
+                        star_shine
+                        </span>
+                        <p>
+                            <strong>Área de interés:</strong>
+                            Producción audiovisual y desarrollo web.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="contacto" class="container-fluid pt-2 pt-lg-5 pb-3">
+             <h1 class="display-4 fw-bold text-center  pb-3 d-none d-lg-block"> Mi Ubicación</h1>
+                <p class="contacto-etiqueta">ENCUÉNTRAME</p>
+            </div>
+            <div class="mapa-contacto">
+                <iframe id="mapa" class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.226421618487!2d-101.58422372444078!3d21.06361708059441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b963652f40f0d%3A0xa7d88da0ad8eff8a!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n!5e0!3m2!1ses-419!2smx!4v1792979801558!5m2!1ses-419!2smx"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </section>
+
+    
+
+    <footer class="text-center py-4">
+        <p class="mb-0">
+            Copyright 2026 - Vania Airneè Gaona Morales
+        </p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+```
